@@ -10,7 +10,7 @@ namespace SignalRChat.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("Chat");
         }
 
         public ActionResult About()
